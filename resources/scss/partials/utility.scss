@@ -104,6 +104,16 @@ a {
     color: $primary; // Warna saat di-hover
 }
 
+.login-link {
+    color: inherit; /* Warna default */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+.login-link:hover {
+    color: $primary; /* Warna saat di-hover */
+    text-decoration: underline; /* Garis bawah saat di-hover */
+}
+
 .color-gray {
     color: $gray-500;
 }
@@ -140,4 +150,9 @@ footer {
 
 .me-140px {
     margin-right: 140px;
+}
+
+.like-icon {
+    height: 32px;
+    width: 32px;
 }
