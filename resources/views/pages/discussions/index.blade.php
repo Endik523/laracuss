@@ -28,7 +28,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-lg-10">
-                                <a href="">
+                                <a href="{{ route('discussions.show') }}">
                                     <h3>
                                         How to add a custom validation in laravel?
                                     </h3>
